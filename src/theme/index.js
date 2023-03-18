@@ -1,6 +1,6 @@
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 
-export const colors = {
+export const Colors = {
   teal: {
     50: "#ecf8f7",
     100: "#ccf5f1",
@@ -14,6 +14,7 @@ export const colors = {
     900: "#002925",
   },
   grey: {
+    50: "#f5f5f5",
     100: "#e0e0e0",
     200: "#c2c2c2",
     300: "#a3a3a3",
@@ -74,13 +75,13 @@ const Theme = ({ children }) => {
   const theme = createTheme({
     palette: {
       primary: {
-        main: colors.primary[500],
+        main: Colors.primary[500],
       },
       secondary: {
-        main: colors.teal[500],
+        main: Colors.teal[500],
       },
       background: {
-        default: colors.grey[100],
+        default: Colors.grey[50],
       },
     },
   });

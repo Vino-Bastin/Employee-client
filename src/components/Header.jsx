@@ -2,13 +2,14 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Tooltip from "@mui/material/Tooltip";
-import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/Button";
 
 import AddIcon from "@mui/icons-material/Add";
+import { Colors } from "../theme";
 
 const Header = () => {
   return (
-    <Box>
+    <Box bgcolor={Colors.grey[100]}>
       <Box
         display="flex"
         justifyContent="space-between"
@@ -17,12 +18,18 @@ const Header = () => {
         mx="10%"
         height="10vh"
       >
-        <Typography variant="body1">Employee</Typography>
-        <IconButton>
-          <Tooltip title="Add New Employee">
-            <AddIcon />
-          </Tooltip>
-        </IconButton>
+        <Typography
+          variant="h5"
+          fontWeight="bold"
+          color={Colors.blueAccent[500]}
+        >
+          Employee
+        </Typography>
+        <Tooltip title="Add New Employee">
+          <Button>
+            <AddIcon color="red" />
+          </Button>
+        </Tooltip>
       </Box>
     </Box>
   );

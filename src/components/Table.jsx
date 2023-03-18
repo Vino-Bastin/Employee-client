@@ -9,6 +9,7 @@ import SaveIcon from "@mui/icons-material/Save";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 import MOCK_DATA from "../data/MOCK_DATA.js";
+import { Colors } from "../theme/index.js";
 
 const Table = () => {
   const [data, setData] = useState(MOCK_DATA);
@@ -98,7 +99,30 @@ const Table = () => {
 
   return (
     <Box display="flex" flex="1" justifyContent="center" p={1} height="90vh">
-      <Box display="flex" width="80%">
+      <Box
+        display="flex"
+        width="80%"
+        sx={{
+          "& .MuiDataGrid-root": {
+            border: "none",
+          },
+          "& .MuiDataGrid-cell": {
+            borderBottom: "none",
+          },
+          "& .MuiDataGrid-columnHeaders": {
+            backgroundColor: Colors.blueAccent[300],
+            borderBottom: "none",
+          },
+          "& .MuiDataGrid-virtualScroller": {
+            border: "none",
+            backgroundColor: Colors.blueAccent[100],
+          },
+          "& .MuiDataGrid-footerContainer": {
+            borderTop: "none",
+            backgroundColor: Colors.blueAccent[300],
+          },
+        }}
+      >
         <Model
           open={open}
           onClose={() => {
