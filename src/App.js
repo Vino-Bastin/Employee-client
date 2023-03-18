@@ -1,26 +1,15 @@
 import React from "react";
-import { ThemeProvider, createTheme, CssBaseline, Box } from "@mui/material";
 
-import Table from "./Table";
+import Table from "./components/Table";
+import Header from "./components/Header";
+import ThemeProvider from "./theme";
 
 function App() {
-  const theme = createTheme({});
-
   return (
-    <>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Box
-          display="flex"
-          flex={1}
-          height="100vh"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Table />
-        </Box>
-      </ThemeProvider>
-    </>
+    <ThemeProvider>
+      <Header />
+      <Table />
+    </ThemeProvider>
   );
 }
 
