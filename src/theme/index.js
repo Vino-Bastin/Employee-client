@@ -1,3 +1,7 @@
+/**
+ * @file Theme.js
+ * @description This file contains the theme for the application.
+ */
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 
 export const Colors = {
@@ -82,6 +86,12 @@ const Theme = ({ children }) => {
       },
       background: {
         default: Colors.grey[50],
+      },
+    },
+    typography: {
+      fontFamily: "Source Sans Pro, sans-serif",
+      button: {
+        textTransform: "none",
       },
     },
   });

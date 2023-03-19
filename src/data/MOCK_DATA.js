@@ -5,7 +5,7 @@ const data = [
     email: "mwhatham0@comsenz.com",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const data = [
     email: "samberger1@behance.net",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const data = [
     email: "smadeley2@google.com",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const data = [
     email: "edowning3@nymag.com",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const data = [
     email: "dwilce4@answers.com",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const data = [
     email: "kjersch5@youtu.be",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const data = [
     email: "kvalett6@plala.or.jp",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const data = [
     email: "rglendinning7@ft.com",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const data = [
     email: "mgherarducci8@webmd.com",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const data = [
     email: "mwhatham0@comsenz.com",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const data = [
     email: "samberger1@behance.net",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const data = [
     email: "smadeley2@google.com",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ const data = [
     email: "edowning3@nymag.com",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ const data = [
     email: "dwilce4@answers.com",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const data = [
     email: "kjersch5@youtu.be",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const data = [
     email: "kvalett6@plala.or.jp",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const data = [
     email: "rglendinning7@ft.com",
     gender: "Female",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const data = [
     email: "mgherarducci8@webmd.com",
     gender: "Male",
     phone: "1234567890",
-    status: "Active",
+    status: true,
   },
 ];
 
